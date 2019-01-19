@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     )
 
 });
-app.get('survey', (req, res) => {
+app.get('/survey', (req, res) => {
     res.sendfile(path.join(__dirname + '/../public/survey.html')
     )
 
